@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "malloy_mre"
+version = "0.1.0"
+description = ""
+authors = ["Connor Charles <Connor.Charles@autotrader.co.uk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+malloy = "^2024.1096"
+pandas = "^2.2.3"
+db-dtypes = "^1.3.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+freezegun = "^1.1.0"
+flake8 = "^4.0.1"
+mypy = "^0.910"
+
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

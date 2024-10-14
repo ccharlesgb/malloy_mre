@@ -1,0 +1,7 @@
+services:
+  base:
+    image: "malloy_mre:latest"
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile

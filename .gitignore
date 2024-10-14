@@ -1,0 +1,17 @@
+*.log
+*.swp
+*.tar.gz
+*.tgz
+*.zat
+.DS_Store
+.building
+.clinic
+.eslintcache
+.idea
+.tscache
+.tscache/
+.tsconfig-*
+.tsconfig.*
+.vagrant/
+.venv
+*.pyc
